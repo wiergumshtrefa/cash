@@ -9,3 +9,13 @@ body {
 p {
     font-size: xx-large;
 }
+.zus1 {
+    width: 1000;
+    height: 150px;
+    background-color: green;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.zus1:hover {
+    transform: scale(1);
+}
