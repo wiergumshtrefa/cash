@@ -12,26 +12,31 @@ p {
 
 .zus2 {
     background-color: blue;
-    width: 120000px;
-    height: 100px;
+    width: 1913px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
     transition: transform 0.3s ease;
+    margin: 0; 
+    padding: 0;
 }
 
 .zus2:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
+    }
 
 .zus1 {
-    width: 1000;
-    height: 150px;
     background-color: green;
-    text-align: center;
+    width: 1913px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
     transition: transform 0.3s ease;
 }
 .zus1:hover {
-    transform: scale(1);
-
+    transform: scale(1.1);
 }
