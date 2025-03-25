@@ -23,4 +23,15 @@ p {
 
 .zus2:hover {
     transform: scale(1.5);
+
+.zus1 {
+    width: 1000;
+    height: 150px;
+    background-color: green;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.zus1:hover {
+    transform: scale(1);
+
 }
