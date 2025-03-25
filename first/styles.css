@@ -9,3 +9,18 @@ body {
 p {
     font-size: xx-large;
 }
+
+.zus2 {
+    background-color: blue;
+    width: 120000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.zus2:hover {
+    transform: scale(1.5);
+}
