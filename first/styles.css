@@ -10,28 +10,66 @@ p {
     font-size: xx-large;
 }
 
-.zus2 {
-    background-color: blue;
-    width: 120000px;
-    height: 100px;
+.zus1 {
+    background-color: green;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    margin: 0; 
+    padding: 0;
     transition: transform 0.3s ease;
+}
+
+.zus1:hover {
+    transform: scale(1.1);
+}
+
+.zus2 {
+    background-color: blue;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    margin: 0; 
+    padding: 0;
 }
 
 .zus2:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
+}
 
-.zus1 {
-    width: 1000;
-    height: 150px;
-    background-color: green;
-    text-align: center;
+.zus3 {
+    background-color: orange; /* New color for the third block */
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
     transition: transform 0.3s ease;
 }
-.zus1:hover {
-    transform: scale(1);
 
+.zus3:hover {
+    transform: scale(1.1);
+}
+
+.zus4 {
+    background-color: purple; /* New color for the fourth block */
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.zus4:hover {
+    transform: scale(1.1);
 }
