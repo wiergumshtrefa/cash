@@ -10,9 +10,25 @@ p {
     font-size: xx-large;
 }
 
+.zus1 {
+    background-color: green;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.zus1:hover {
+    transform: scale(1.1);
+}
+
 .zus2 {
     background-color: blue;
-    width: 1913px;
+    width: 100%; /* Changed to 100% for responsiveness */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -24,11 +40,11 @@ p {
 
 .zus2:hover {
     transform: scale(1.1);
-    }
+}
 
-.zus1 {
-    background-color: green;
-    width: 1913px;
+.zus3 {
+    background-color: orange; /* New color for the third block */
+    width: 100%; /* Changed to 100% for responsiveness */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -37,6 +53,23 @@ p {
     padding: 0;
     transition: transform 0.3s ease;
 }
-.zus1:hover {
+
+.zus3:hover {
+    transform: scale(1.1);
+}
+
+.zus4 {
+    background-color: purple; /* New color for the fourth block */
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.zus4:hover {
     transform: scale(1.1);
 }
