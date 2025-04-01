@@ -34,6 +34,7 @@ p {
 
 .zus1 {
     background-color: #3500D3;
+    background-color: rgb(55, 0, 255);
     color: black;
 }
 
@@ -43,6 +44,7 @@ p {
 
 .zus2 {
     background-color: #240090;
+    background-color: rgb(0, 212, 0);
 }
 
 .zus2:hover {
@@ -51,6 +53,8 @@ p {
 
 .zus3 {
     background-color: #190061; 
+    background-color: rgb(255, 0, 0); 
+
 }
 
 .zus3:hover {
