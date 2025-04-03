@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient( #500078, #9500c2, #c800ff);
+    height: 1000px;
+}
+
+p {
+    color: #91d426;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+h1 {
+    color: rgb(245, 245, 245);
+}
