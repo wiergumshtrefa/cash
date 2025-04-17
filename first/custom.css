@@ -14,3 +14,8 @@ p {
 h1 {
     color: rgb(245, 245, 245);
 }
+
+.class1 {
+    background-color: black;
+    color: white;
+}
